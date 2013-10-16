@@ -14,7 +14,7 @@ public class SendEmailActivity extends Activity {
 	EditText textTo;
 	EditText textSubject;
 	EditText textMessage;
- 
+     
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

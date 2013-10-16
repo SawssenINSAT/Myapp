@@ -20,7 +20,7 @@ public class SendEmailActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
  
-		buttonSend = (Button) findViewById(R.id.buttonSend1);
+		buttonSend = (Button) findViewById(R.id.buttonSend);
 		textTo = (EditText) findViewById(R.id.editTextTo);
 		textSubject = (EditText) findViewById(R.id.editTextSubject);
 		textMessage = (EditText) findViewById(R.id.editTextMessage);
